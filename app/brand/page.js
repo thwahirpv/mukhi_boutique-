@@ -12,7 +12,11 @@ export default function Brand() {
             Mukhi Boutique was founded with a vision to bring high-fashion aesthetics to the traditional elegance of Trivandrum. 
             Located in the upscale neighborhood of Kowdiar, we have established ourselves as a destination for brides and fashion enthusiasts alike.
           </p>
-          <div className="h-64 bg-stone-200 w-full my-8" />
+          <img 
+            src="/images/interior.png" 
+            alt="Mukhi Boutique Interior" 
+            className="w-full h-64 md:h-96 object-cover my-8 shadow-lg" 
+          />
           <p className="text-lg leading-relaxed text-stone-600 mb-6">
              Our philosophy is simple: every piece of clothing tells a story. From the hand-picked fabrics to the intricate embroidery, 
              we ensure that every garment we create is a masterpiece. We believe in the power of "slow fashion"—creating timeless pieces that are cherished for generations.

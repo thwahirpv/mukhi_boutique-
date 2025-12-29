@@ -6,8 +6,15 @@ import { motion } from "framer-motion";
 export default function HeroSection() {
   return (
     <section className="relative h-screen min-h-[600px] flex items-center justify-center bg-stone-900 overflow-hidden">
-      {/* Background Effect */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-stone-800 via-stone-900 to-stone-950 opacity-80" />
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src="/images/hero.png" 
+          alt="Mukhi Boutique Luxury Details" 
+          className="w-full h-full object-cover opacity-60"
+        />
+        <div className="absolute inset-0 bg-black/40 mix-blend-multiply" />
+      </div>
       
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">

@@ -12,7 +12,11 @@ export default function Catalog() {
            {[1, 2, 3, 4, 5, 6].map((item) => (
              <div key={item} className="group cursor-pointer">
                <div className="aspect-[3/4] bg-stone-200 mb-4 overflow-hidden relative">
-                 <div className="w-full h-full bg-stone-300 group-hover:scale-110 transition-transform duration-700" />
+                 <img 
+                    src="/images/saree.png" 
+                    alt={`Designer Saree ${item}`} 
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+                 />
                  <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
                </div>
                <h3 className="text-lg font-serif">Designer Saree {item}</h3>
