@@ -51,8 +51,7 @@ export default function Contact() {
              <div className="flex gap-4">
                 <Phone className="w-5 h-5 text-gold-600 shrink-0" />
                 <p>
-                  +91 79945 66638<br/>
-                  +91 79075 16226
+                  <a href="tel:+918086096050" className="hover:text-gold-600 transition-colors">+91 80860 96050</a>
                 </p>
              </div>
           </div>
